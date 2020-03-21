@@ -1,5 +1,5 @@
 let requestURL =
-'https://420memesxd.github.io/JS-Lab4/main.json/';
+'https://420memesxd.github.io/JS-Lab4/main.json';
 
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
