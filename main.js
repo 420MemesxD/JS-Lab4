@@ -1,5 +1,4 @@
-let requestURL =
-'https://420memesxd.github.io/JS-Lab4/main.json';
+let requestURL = 'https://420memesxd.github.io/JS-Lab4/main.json';
 
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
@@ -7,16 +6,16 @@ request.responseType = 'json';
 request.send();
 
 request.onload = function(){
-  let strageProducts = request.response;
-  console.log(strageProducts);
-  strageProducts(strageProducts);
+  let strangeProducts = request.response;
+  console.log(strangeProducts);
+  sProducts(strangeProducts);
 };
 
-function strageProducts(jsonObj){
+function sProducts(jsonObj){
 
-  let strageProducts = jsonObj.strageProducts;
+  let sProducts = jsonObj.main;
 
-  for(let i = 0; i < strageProducts.length; i++){
+  for(let i = 0; i < sProducts.length; i++){
 
   //build HTML elements for the content
   let article = document.createElement('article');
@@ -26,11 +25,11 @@ function strageProducts(jsonObj){
   let ul = document.createElement('ul');
 
   let section = document.quuerySelector('section');
-  img.setAttribute('src', 'https://420memesxd.github.io/JavaScript/assets/' + strageProducts[i].image);
-  img.setAttribute('alt', strageProducts[i].image);
-  h2.textContent = strageProducts[i].name;
-  p1.textContent = 'Price' + strageProducts[i].price;
-  let toppings = strageProducts[i].toppings;
+  img.setAttribute('src', 'https://420memesxd.github.io/JavaScript/assets/' + sProducts[i].image);
+  img.setAttribute('alt', sProducts[i].image);
+  h2.textContent = sProducts[i].name;
+  p1.textContent = 'Price' + sProducts[i].price;
+  let toppings = sProducts[i].toppings;
   for (let j = 0; j < details.length; j++){
     let listItem = document.createElement('li');
     listItem.textContent = details[j];
@@ -44,3 +43,4 @@ article.appendChild(ul);
 section.appendChild(article);
   }
 }
+
