@@ -9,7 +9,7 @@ request.send();
 request.onload = function(){
   let strageProducts = request.response;
   console.log(strageProducts);
-  pizzaTypes(strageProducts);
+  strageProducts(strageProducts);
 };
 
 function strageProducts(jsonObj){
