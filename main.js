@@ -7,9 +7,9 @@ request.responseType = 'json';
 request.send();
 
 request.onload = function(){
-  let plentyPizza = request.response;
-  console.log(plentyPizza);
-  pizzaTypes(plentyPizza);
+  let strageProducts = request.response;
+  console.log(strageProducts);
+  pizzaTypes(strageProducts);
 };
 
 function strageProducts(jsonObj){
