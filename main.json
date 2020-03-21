@@ -1,49 +1,49 @@
 {
-"Strage Products":[
-  {
-    "name" : "Nicolas Cage Pillow",
-    "price" : 13.66,
-    "details" : [
-      "Reversible Sequin Pillow",
-      "Nicolas Cage"
-    ],
-    "image" : "51SdwYh9x0L._AC_.jpg"
-  },
-  {
-    "name" : "uranium ore",
-    "price" : 39.95,
-    "details" : [
-      "Radio Active Content",
-      "small metal casing"
-    ],
-    "image" : "91tal9iiB1L._SL1500_.jpg"
-  },
-  {
-    "name" : "Human finger",
-    "price" : 15.00,
-    "details" : [
-      "Human Finger",
-      "normal sized Finger"
-    ],
-    "image" : "human-index-finger-white-background-isolated-forefinger-68490200.jpg"
-  },
-  {
-    "name" : "A fish Pencil case",
-    "price" : 3.97,
-    "details" : [
-      "Realistic looking fish",
-      "holds pencils, pens etc.."
-    ],
-    "image" : "f00a79d1-6a49-4393-9424-0034cfa1e796_1.ccad4b15996e8ab5aae4cebdcb72b715.jpeg"
-  },
-  {
-    "name" : "A hand squirrel",
-    "price" : 6.50,
-    "details" : [
-      "5 parts",
-      "your hand becomes a squirrel"
-    ],
-    "image" : "613rrhRTmEL._AC_SX425_.jpg"
-  }
-]
+	"strangeProducts": [{
+			"name": "Nicolas Cage Pillow",
+			"price": 13.66,
+			"details": [
+				"Reversible Sequin Pillow",
+				"Nicolas Cage"
+			],
+			"image": "51SdwYh9x0L._AC_.jpg"
+		},
+		{
+			"name": "uranium ore",
+			"price": 39.95,
+			"details": [
+				"Radio Active Content",
+				"small metal casing"
+			],
+			"image": "91tal9iiB1L._SL1500_.jpg"
+		},
+		{
+			"name": "Human finger",
+			"price": 15.00,
+			"details": [
+				"Human Finger",
+				"normal sized Finger"
+			],
+			"image": "human-index-finger-white-background-isolated-forefinger-68490200.jpg"
+		},
+		{
+			"name": "A fish Pencil case",
+			"price": 3.97,
+			"details": [
+				"Realistic looking fish",
+				"holds pencils, pens etc.."
+			],
+			"image": "f00a79d1-6a49-4393-9424-0034cfa1e796_1.ccad4b15996e8ab5aae4cebdcb72b715.jpeg"
+		},
+		{
+			"name": "A hand squirrel",
+			"price": 6.50,
+			"details": [
+				"5 parts",
+				"your hand becomes a squirrel"
+			],
+			"image": "613rrhRTmEL._AC_SX425_.jpg"
+		}
+	]
 }
+
